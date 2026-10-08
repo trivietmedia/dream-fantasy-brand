@@ -1,4 +1,4 @@
-# Dreamhaven — YouTube Channel Brand Kit
+# Dream Fantasy — YouTube Channel Brand Kit
 
 Ambient music channel branding (English).
 
