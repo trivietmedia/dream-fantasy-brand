@@ -25,7 +25,7 @@ Tagline: *Ambient music for focus, sleep & calm.*
 Tip: search each name on YouTube and Google first to make sure it is not already used by a big channel.
 
 ## Brand colors
-Void #05010F · Deep Purple #2A0F5E · Neon Cyan #00F0FF · Violet #A24BFF · Hot Pink #FF3CAC
+Indigo #241070 · Deep Violet #4A2BC4 · Bright Violet #8A5CFF · Aqua #5FF8FF · Lavender #C58CFF · Pink #FF7AC8 (brighter palette)
 Font: Avenir Next Heavy / Montserrat Black (free alternative) for the name; wide-spaced Bold for sub-text.
 
 ## Channel description (About tab — paste in)

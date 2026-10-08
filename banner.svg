@@ -1,35 +1,39 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="2560" height="1440" viewBox="0 0 2560 1440">
 <defs>
-<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#05010f"/><stop offset="0.6" stop-color="#14063a"/><stop offset="1" stop-color="#2a0f5e"/></linearGradient>
-<linearGradient id="neon" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="2560" y2="0"><stop offset="0" stop-color="#00f0ff"/><stop offset="0.5" stop-color="#b05cff"/><stop offset="1" stop-color="#ff3cac"/></linearGradient>
-<linearGradient id="txt" x1="0" x2="1"><stop offset="0" stop-color="#7ff6ff"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#ff8ad8"/></linearGradient>
-<linearGradient id="mt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a1a8a"/><stop offset="1" stop-color="#05010f"/></linearGradient>
+<linearGradient id="bg" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#3a2a9e"/><stop offset="0.45" stop-color="#7a4ae8"/><stop offset="0.75" stop-color="#d77cf0"/><stop offset="1" stop-color="#ffa6dc"/></linearGradient>
+<linearGradient id="neon" gradientUnits="userSpaceOnUse" x1="0" y1="0" x2="2560" y2="0"><stop offset="0" stop-color="#5ff8ff"/><stop offset="0.5" stop-color="#d9a8ff"/><stop offset="1" stop-color="#ff8ad8"/></linearGradient>
+<linearGradient id="txt" x1="0" x2="1"><stop offset="0" stop-color="#c8fcff"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#ffd0ee"/></linearGradient>
+<linearGradient id="mt" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#6a3fd0"/><stop offset="1" stop-color="#2a1678"/></linearGradient>
+<linearGradient id="mt2" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#4a2aa8"/><stop offset="1" stop-color="#1e0f5c"/></linearGradient>
 <filter id="blur" filterUnits="userSpaceOnUse" x="-500" y="-500" width="3600" height="2500"><feGaussianBlur stdDeviation="55"/></filter>
-<filter id="glow" filterUnits="userSpaceOnUse" x="-200" y="-200" width="3000" height="1800"><feGaussianBlur stdDeviation="14" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="glow" filterUnits="userSpaceOnUse" x="-200" y="-200" width="3000" height="1800"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+<filter id="shadow" filterUnits="userSpaceOnUse" x="-200" y="-200" width="3000" height="1800"><feDropShadow dx="0" dy="6" stdDeviation="8" flood-color="#1a0a5a" flood-opacity=".65"/></filter>
 </defs>
 <rect width="2560" height="1440" fill="url(#bg)"/>
 <!-- aurora ribbons -->
-<g filter="url(#blur)" opacity=".9" fill="none" stroke-linecap="round">
-<path d="M-100 520 C 500 220 900 760 1400 450 S 2200 250 2700 480" stroke="#00f0ff" stroke-width="150" opacity=".55"/>
-<path d="M-100 640 C 500 380 1000 850 1500 560 S 2200 420 2700 600" stroke="#a24bff" stroke-width="170" opacity=".6"/>
-<path d="M-100 760 C 600 560 1100 940 1600 700 S 2200 600 2700 740" stroke="#ff3cac" stroke-width="130" opacity=".5"/>
+<g filter="url(#blur)" fill="none" stroke-linecap="round">
+<path d="M-100 420 C 500 120 900 660 1400 350 S 2200 150 2700 380" stroke="#40f4ff" stroke-width="170" opacity=".75"/>
+<path d="M-100 580 C 500 320 1000 790 1500 500 S 2200 360 2700 540" stroke="#c07cff" stroke-width="180" opacity=".7"/>
+<path d="M-100 740 C 600 540 1100 920 1600 680 S 2200 580 2700 720" stroke="#ff6cc0" stroke-width="140" opacity=".6"/>
 </g>
+<circle cx="1280" cy="1000" r="520" fill="#ffd0f0" opacity=".45" filter="url(#blur)"/>
 <g fill="#fff">
-<circle cx="180" cy="150" r="4"/><circle cx="420" cy="320" r="3"/><circle cx="700" cy="110" r="3"/><circle cx="1000" cy="230" r="2.5"/><circle cx="1500" cy="120" r="3"/><circle cx="1800" cy="260" r="3"/><circle cx="2100" cy="130" r="4"/><circle cx="2380" cy="300" r="3"/><circle cx="2450" cy="120" r="3"/><circle cx="120" cy="520" r="3"/><circle cx="2400" cy="560" r="3"/><circle cx="300" cy="900" r="2.5"/><circle cx="2260" cy="940" r="2.5"/>
+<circle cx="180" cy="150" r="5"/><circle cx="420" cy="320" r="4"/><circle cx="700" cy="110" r="4"/><circle cx="1000" cy="230" r="3.5"/><circle cx="1500" cy="120" r="4"/><circle cx="1800" cy="260" r="4"/><circle cx="2100" cy="130" r="5"/><circle cx="2380" cy="300" r="4"/><circle cx="2450" cy="120" r="4"/><circle cx="120" cy="520" r="4"/><circle cx="2400" cy="560" r="4"/><circle cx="300" cy="900" r="3.5"/><circle cx="2260" cy="940" r="3.5"/>
 </g>
 <!-- mountains -->
 <path d="M0 1080 L 220 900 L 420 1040 L 700 820 L 980 1050 L 1280 930 L 1560 1060 L 1860 840 L 2120 1030 L 2360 900 L 2560 1040 V1440 H0Z" fill="url(#mt)"/>
-<path d="M0 1240 C 500 1150 900 1280 1400 1210 S 2150 1160 2560 1250 V1440 H0Z" fill="#05010f"/>
+<path d="M0 1180 L 300 1040 L 620 1170 L 960 1010 L 1300 1160 L 1700 1000 L 2050 1150 L 2330 1030 L 2560 1140 V1440 H0Z" fill="url(#mt2)"/>
+<path d="M0 1260 C 500 1190 900 1300 1400 1240 S 2150 1200 2560 1270 V1440 H0Z" fill="#1a0c52"/>
 <!-- sound bars -->
-<g stroke="url(#neon)" stroke-width="10" stroke-linecap="round" opacity=".75">
-<line x1="140" y1="1180" x2="140" y2="1300"/><line x1="190" y1="1150" x2="190" y2="1330"/><line x1="240" y1="1190" x2="240" y2="1290"/><line x1="290" y1="1130" x2="290" y2="1350"/><line x1="340" y1="1170" x2="340" y2="1310"/>
-<line x1="2220" y1="1170" x2="2220" y2="1310"/><line x1="2270" y1="1130" x2="2270" y2="1350"/><line x1="2320" y1="1190" x2="2320" y2="1290"/><line x1="2370" y1="1150" x2="2370" y2="1330"/><line x1="2420" y1="1180" x2="2420" y2="1300"/>
+<g stroke="url(#neon)" stroke-width="10" stroke-linecap="round">
+<line x1="140" y1="1210" x2="140" y2="1320"/><line x1="190" y1="1180" x2="190" y2="1350"/><line x1="240" y1="1220" x2="240" y2="1310"/><line x1="290" y1="1160" x2="290" y2="1370"/><line x1="340" y1="1200" x2="340" y2="1330"/>
+<line x1="2220" y1="1200" x2="2220" y2="1330"/><line x1="2270" y1="1160" x2="2270" y2="1370"/><line x1="2320" y1="1220" x2="2320" y2="1310"/><line x1="2370" y1="1180" x2="2370" y2="1350"/><line x1="2420" y1="1210" x2="2420" y2="1320"/>
 </g>
 <!-- Safe area x 507..2053, y 508..931 -->
-<g font-family="'Avenir Next','Helvetica Neue',Arial,sans-serif" text-anchor="middle">
-<text x="1280" y="610" font-size="46" font-weight="700" letter-spacing="26" fill="#8ff8ff">◆ AMBIENT MUSIC ◆</text>
-<text x="1280" y="775" font-size="170" font-weight="900" textLength="1440" lengthAdjust="spacingAndGlyphs" fill="url(#txt)" filter="url(#glow)">DREAM FANTASY</text>
-<rect x="640" y="835" width="1280" height="78" rx="39" fill="#0a0220" fill-opacity=".6" stroke="url(#neon)" stroke-width="4"/>
+<g font-family="'Avenir Next','Montserrat','Helvetica Neue',Arial,sans-serif" text-anchor="middle">
+<text x="1280" y="610" font-size="46" font-weight="700" letter-spacing="26" fill="#fff" filter="url(#shadow)">◆ AMBIENT MUSIC ◆</text>
+<text x="1280" y="775" font-size="170" font-weight="900" textLength="1440" lengthAdjust="spacingAndGlyphs" fill="url(#txt)" filter="url(#shadow)">DREAM FANTASY</text>
+<rect x="640" y="835" width="1280" height="78" rx="39" fill="#2a1678" fill-opacity=".55" stroke="url(#neon)" stroke-width="4"/>
 <text x="1280" y="890" font-size="40" font-weight="700" letter-spacing="12" fill="#fff">SLEEP  •  FOCUS  •  RELAX  •  DREAM</text>
 </g>
 </svg>
