@@ -1,23 +1,42 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="800" height="800" viewBox="0 0 800 800">
 <defs>
-<radialGradient id="bg" cx="0.5" cy="0.4" r="0.85"><stop offset="0" stop-color="#8a5cff"/><stop offset="0.55" stop-color="#4a2bc4"/><stop offset="1" stop-color="#241070"/></radialGradient>
-<linearGradient id="neon" gradientUnits="userSpaceOnUse" x1="200" y1="100" x2="620" y2="520"><stop offset="0" stop-color="#5ff8ff"/><stop offset="0.5" stop-color="#c58cff"/><stop offset="1" stop-color="#ff7ac8"/></linearGradient>
-<linearGradient id="txt" x1="0" x2="1"><stop offset="0" stop-color="#b8fbff"/><stop offset="0.5" stop-color="#ffffff"/><stop offset="1" stop-color="#ffc2ea"/></linearGradient>
-<filter id="glow" filterUnits="userSpaceOnUse" x="-200" y="-200" width="1200" height="1200"><feGaussianBlur stdDeviation="12" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
-<filter id="soft" filterUnits="userSpaceOnUse" x="-200" y="-200" width="1200" height="1200"><feGaussianBlur stdDeviation="40"/></filter>
-<filter id="shadow" filterUnits="userSpaceOnUse" x="-200" y="-200" width="1200" height="1200"><feDropShadow dx="0" dy="4" stdDeviation="5" flood-color="#1a0a5a" flood-opacity=".7"/></filter>
-<mask id="cres"><rect width="800" height="800" fill="#fff"/><circle cx="470" cy="300" r="165" fill="#000"/></mask>
+<linearGradient id="sky" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9fb4ff"/><stop offset="0.45" stop-color="#d8b8ff"/><stop offset="0.8" stop-color="#ffc9dd"/><stop offset="1" stop-color="#ffe3c8"/></linearGradient>
+<radialGradient id="sun" cx="0.5" cy="0.5" r="0.5"><stop offset="0" stop-color="#fffbe6"/><stop offset="0.6" stop-color="#fff0c4" stop-opacity=".9"/><stop offset="1" stop-color="#ffe9b8" stop-opacity="0"/></radialGradient>
+<linearGradient id="grass" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#8fe3b5"/><stop offset="1" stop-color="#4dbf9a"/></linearGradient>
+<linearGradient id="rock" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#9a7bd6"/><stop offset="1" stop-color="#5a3fa8"/></linearGradient>
+<linearGradient id="wall" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#fff6ee"/><stop offset="1" stop-color="#f1d5ea"/></linearGradient>
+<linearGradient id="roof" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#ff8fb8"/><stop offset="1" stop-color="#e2599a"/></linearGradient>
+<g id="spark"><path d="M0 -22 Q3 -3 22 0 Q3 3 0 22 Q-3 3 -22 0 Q-3 -3 0 -22Z"/></g>
+<g id="cloud"><ellipse cx="0" cy="0" rx="80" ry="24"/><circle cx="-30" cy="-16" r="26"/><circle cx="14" cy="-26" r="32"/><circle cx="46" cy="-8" r="22"/></g>
+<filter id="blur"><feGaussianBlur stdDeviation="6"/></filter>
 </defs>
-<rect width="800" height="800" fill="url(#bg)"/>
-<circle cx="360" cy="320" r="240" fill="#ff7ac8" opacity=".55" filter="url(#soft)"/>
-<circle cx="300" cy="260" r="200" fill="#4ff3ff" opacity=".4" filter="url(#soft)"/>
-<g fill="#fff"><circle cx="130" cy="150" r="5"/><circle cx="660" cy="130" r="4"/><circle cx="700" cy="330" r="5"/><circle cx="100" cy="360" r="4"/><circle cx="560" cy="60" r="3.5"/><circle cx="240" cy="70" r="3.5"/></g>
-<g filter="url(#glow)">
-<circle cx="400" cy="310" r="215" fill="url(#neon)" mask="url(#cres)"/>
-<g stroke="#fff" stroke-width="16" stroke-linecap="round">
-<line x1="420" y1="270" x2="420" y2="350"/><line x1="470" y1="230" x2="470" y2="390"/><line x1="520" y1="260" x2="520" y2="360"/><line x1="570" y1="290" x2="570" y2="330"/>
+<rect width="800" height="800" fill="url(#sky)"/>
+<circle cx="400" cy="300" r="270" fill="url(#sun)"/>
+<g fill="#fff" opacity=".85"><use href="#cloud" transform="translate(150 230) scale(.9)"/><use href="#cloud" transform="translate(660 190) scale(.8)"/><use href="#cloud" transform="translate(690 400) scale(.6)" opacity=".7"/></g>
+<g fill="#fff6c8"><use href="#spark" transform="translate(120 120) scale(.9)"/><use href="#spark" transform="translate(690 90) scale(.6)"/><use href="#spark" transform="translate(600 300) scale(.5)"/><use href="#spark" transform="translate(205 395) scale(.5)"/><use href="#spark" transform="translate(300 70) scale(.45)"/></g>
+<!-- island -->
+<g transform="translate(0 -10)">
+<path d="M170 400 Q400 440 630 400 Q600 470 470 520 Q430 590 400 610 Q370 590 330 520 Q200 470 170 400Z" fill="url(#rock)"/>
+<path d="M300 470 Q330 500 345 540 M470 465 Q440 500 435 545 M400 480 L400 585" stroke="#c9b0ff" stroke-width="5" stroke-linecap="round" fill="none" opacity=".6"/>
+<path d="M165 402 Q400 330 635 402 Q400 445 165 402Z" fill="url(#grass)"/>
+<!-- castle -->
+<rect x="300" y="285" width="200" height="85" fill="url(#wall)"/>
+<rect x="268" y="250" width="56" height="125" fill="url(#wall)"/>
+<rect x="476" y="250" width="56" height="125" fill="url(#wall)"/>
+<rect x="362" y="225" width="76" height="150" fill="url(#wall)"/>
+<path d="M258 252 L296 182 L334 252Z" fill="url(#roof)"/>
+<path d="M466 252 L504 182 L542 252Z" fill="url(#roof)"/>
+<path d="M352 228 L400 130 L448 228Z" fill="url(#roof)"/>
+<path d="M400 130 V102" stroke="#e2599a" stroke-width="4"/><path d="M400 104 L428 114 L400 124Z" fill="#ffd45e"/>
+<path d="M382 375 V335 Q400 310 418 335 V375Z" fill="#5a3fa8"/>
+<g fill="#ffd45e"><rect x="290" y="285" width="12" height="24" rx="6"/><rect x="498" y="285" width="12" height="24" rx="6"/><rect x="393" y="250" width="14" height="28" rx="7"/></g>
+<!-- trees -->
+<g><rect x="205" y="368" width="6" height="22" fill="#7a5aa8"/><circle cx="208" cy="356" r="20" fill="#ffb3d1"/><rect x="590" y="372" width="6" height="20" fill="#7a5aa8"/><circle cx="593" cy="360" r="18" fill="#ffb3d1"/></g>
 </g>
+<!-- bottom clouds -->
+<g fill="#fff"><use href="#cloud" transform="translate(250 560) scale(1.1)"/><use href="#cloud" transform="translate(560 575) scale(1.2)"/><use href="#cloud" transform="translate(400 590) scale(1.2)"/></g>
+<g font-family="'Baloo 2','Fredoka','Avenir Next','Helvetica Neue',Arial,sans-serif" text-anchor="middle">
+<text x="400" y="662" font-size="76" font-weight="900" textLength="560" lengthAdjust="spacingAndGlyphs" fill="#2b2166">DREAM FANTASY</text>
+<text x="400" y="720" font-size="30" font-weight="700" letter-spacing="14" fill="#5a3fa8">AMBIENT</text>
 </g>
-<text x="400" y="635" text-anchor="middle" font-family="'Avenir Next','Montserrat','Helvetica Neue',Arial,sans-serif" font-weight="900" font-size="84" letter-spacing="4" textLength="720" lengthAdjust="spacingAndGlyphs" fill="url(#txt)" filter="url(#shadow)">DREAM FANTASY</text>
-<text x="400" y="708" text-anchor="middle" font-family="'Avenir Next','Montserrat','Helvetica Neue',Arial,sans-serif" font-weight="700" font-size="42" letter-spacing="22" fill="#fff" filter="url(#shadow)">AMBIENT</text>
 </svg>
