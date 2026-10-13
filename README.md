@@ -6,3 +6,4 @@ Ambient music channel branding (English).
 - `banner.png` — 2560×1440 channel banner (safe area 1546×423)
 - `logo.svg`, `banner.svg` — editable sources
 - `channel-info.md` — name options, description, keywords, upload templates
+- `audio/space-ambient-prompts.md` — 6 Suno prompts for a 1-hour Space / Aurora ambient video
