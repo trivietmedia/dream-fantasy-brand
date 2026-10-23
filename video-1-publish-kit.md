@@ -25,9 +25,10 @@ Close your eyes, lower the lights and let the music carry you away. Gentle from 
 
 💬 Tell us in the comments where you're listening from and what time it is there.
 
+🎵 More dreamy ambient: [Dreamscapes playlist link]
+
 👉 Subscribe and turn on the bell so you never miss a new soundscape.
 
-Music created with AI-assisted tools and curated by Dream Fantasy. Background image is AI-generated.
 © Dream Fantasy. Please do not re-upload.
 
 📩 Business inquiries: [your email]
@@ -38,13 +39,15 @@ Music created with AI-assisted tools and curated by Dream Fantasy. Background im
 sleep music, deep sleep music, ambient sleep music, relaxing music, tropical ambient, ocean ambient, calm music, dreamy music, relaxation music, sleep ambient
 
 ## Pinned comment
-Where are you listening from, and what time is it there? 🌙 Sweet dreams. Subscribe for a new soundscape every week.
+Where are you listening from, and what time is it there? 🌙 Sweet dreams. Subscribe for new soundscapes.
 
 ## Upload settings
 - Visibility: Schedule (see time below)
+- Playlist: Dreamscapes
 - Audience: No, it is not made for kids
-- Altered content: if the image or music is AI-generated and looks realistic, answer Yes. It only adds a label.
+- Altered content: AI disclosure is done with YouTube's own label (already checked), so the description does not repeat it.
 - Category: Music; language: English; license: Standard YouTube
+- Shorts remixing: audio only is recommended (your choice; "don't allow" is the safest). Check the Suno plan terms first.
 - Add an end screen (last 20 s) and a subscribe card
 - Thumbnail: thumbnail.jpg (needs a verified channel to upload custom thumbnails)
 
