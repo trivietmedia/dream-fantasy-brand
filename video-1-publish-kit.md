@@ -49,4 +49,4 @@ Where are you listening from, and what time is it there? 🌙 Sweet dreams. Subs
 - Thumbnail: thumbnail.jpg (needs a verified channel to upload custom thumbnails)
 
 ## Publish time
-Schedule for Friday 18:00 US Eastern (about 05:00 Saturday Vietnam time). Upload at least 3 hours earlier so HD processing is done.
+Schedule for Friday 20:00 Vietnam time (= 09:00 US Eastern / 06:00 US Pacific until Nov 1, then 08:00 Eastern / 05:00 Pacific once US clocks go back). Upload the day before so HD processing is done, and use Schedule in YouTube Studio.
