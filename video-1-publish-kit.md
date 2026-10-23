@@ -1,16 +1,16 @@
 # VIDEO 1 — Publish kit (Dream Fantasy)
 
-Replace anything in [BRACKETS] before publishing. Default assumes a 3-hour video.
+Replace anything in [BRACKETS] before publishing. Default assumes a 1-hour video.
 
 ## Title (pick one; recommended first)
-1. Dreamy Sleep Music | 3 Hours of Tropical Night Ambient for Deep Sleep
-2. 3 Hours Dreamy Ambient Sleep Music | Starry Ocean Night Resort
-3. Fall Asleep in Paradise 🌴 Dreamy Ambient Music for Deep Sleep (3 Hours)
+1. Dreamy Sleep Music | 1 Hour of Tropical Night Ambient for Deep Sleep
+2. 1 Hour Dreamy Ambient Sleep Music | Starry Ocean Night Resort
+3. Fall Asleep in Paradise 🌴 Dreamy Ambient Music for Deep Sleep (1 Hour)
 
 ## Description (paste in)
-Drift into a dreamy tropical night. 3 hours of calm ambient music — soft pads, gentle piano and a distant ocean atmosphere — for deep sleep, relaxation and peaceful evenings. 🌙
+Drift into a dreamy tropical night. 1 hour of calm ambient music — soft pads, gentle piano and a distant ocean atmosphere — for deep sleep, relaxation and peaceful evenings. 🌙
 
-Close your eyes, lower the lights and let the music carry you away. Made to play all night, with no sudden sounds and no interruptions inside the music.
+Close your eyes, lower the lights and let the music carry you away. Gentle from the first note to the last, with no sudden sounds and no interruptions inside the music.
 
 🌴 Perfect for
 • Falling asleep and deep sleep
@@ -21,7 +21,7 @@ Close your eyes, lower the lights and let the music carry you away. Made to play
 🎧 Tips
 • Play at a low volume, or use a sleep timer
 • Headphones are optional; speakers work well too
-• Loop-friendly: leave it playing as long as you like
+• Set it to repeat if you want it to play longer
 
 💬 Tell us in the comments where you're listening from and what time it is there.
 
